@@ -1,20 +1,13 @@
-body {
-    background-color: #eee
-}
-
 .card {
     border: none;
     border-radius: 10px
 }
 
 .badge span {
-    background-color: #fffbec;
-    width: 130px;
-    height: 25px;
-    padding-bottom: 3px;
-    border-radius: 5px;
-    display: flex;
-    color: #fed85d;
-    justify-content: center;
-    align-items: center
+    color: blue;
 }
+
+h6{
+    color: darkviolet;
+}
+

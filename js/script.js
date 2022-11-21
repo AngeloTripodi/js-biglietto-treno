@@ -2,6 +2,11 @@ const kilometers = parseFloat ( prompt ("Inserisci i Km che vuoi percorrere"));
 
 let travelerAge = parseInt ( prompt ("Inserisci la tua età") );
 
+if (isNaN(travelerAge)) {
+    travelerAge = 50;
+    console.log ("Non hai inserito un'età vera, quindi non hai alcun diritto ad uno sconto!")
+}
+
 if ((travelerAge <=0) || (travelerAge >=123)) {
     travelerAge = 50;
     console.log ("Non hai inserito un'età vera, quindi non hai alcun diritto ad uno sconto!")
